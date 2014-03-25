@@ -12,6 +12,14 @@
     .title {
       font-size: 18px;
     }
+    li {
+      position: relative;
+      height: 35px;
+      form {
+        position: absolute;
+        margin-left: 33px;
+      }
+    }
     .action-links {
       float: right;
       font-size: 13px;
