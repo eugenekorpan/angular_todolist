@@ -35,7 +35,7 @@ end
 gem 'devise'
 gem 'better_errors'
 gem 'pry'
-gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
+gem 'bootstrap-sass', '~> 3.1.1'
 
 group :development, :test do
   gem 'rspec-rails', '~> 3.0.0.beta'

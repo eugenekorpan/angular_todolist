@@ -8,13 +8,13 @@
 
   <ul class='tasks'>
     <li ng-repeat='task in tasks'>
+      <div class='action-links'>
+        <span class='glyphicon glyphicon-trash' ng-click='delete(task)'></span>
+      </div>
       <div class='chbx'>
         <input type='checkbox'/>
       </div>
       <div class='title' editable-text="task.title" buttons='no' onbeforesave='updateTask(task, $data)'>{{task.title}}</div>
-      <div class='action-links'>
-        <span ng-click='delete(task)'>Delete</span>
-      </div>
       <div class='clearboth'></div>
     </li>
   </ul>
