@@ -18,4 +18,21 @@
       <div class='clearboth'></div>
     </li>
   </ul>
+
+  <div class='separator'>
+    <div class='title'> Completed </div>
+    <div class='line'></div>
+  </div>
+  <div class='clearboth'></div>
+
+  <ul class='tasks completed'>
+    <li ng-repeat='task in completed_tasks'>
+      <div class='chbx'>
+        <input type='checkbox' checked/>
+      </div>
+      <div class='title editable editable-click'>{{task.title}}</div>
+      <div class='clearboth'></div>
+    </li>
+  </ul>
+
 </div>
